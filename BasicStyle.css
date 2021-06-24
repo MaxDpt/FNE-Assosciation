@@ -1,0 +1,59 @@
+
+/* Body of sheet */
+body
+{
+    background-color: #adccce;
+}
+
+/* Header fixe */
+header .row
+{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius:  0px 0px  8px 8px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 4;
+}
+
+/* Logo */
+header img
+{
+    width: 50px;
+    margin-left: -4.5em;
+    margin-top: -0.4em;
+    border-radius: 10px;
+    border: solid white 2px;
+}
+
+/* Menu connexion */
+
+/* Link */
+header .dropdown-menu a:hover
+{
+    background-color: #adccce;
+    color: white;
+}
+/* Sheet */
+header .dropdown-menu
+{
+    background: linear-gradient(to right, #adccce, white);
+    border-radius: 15px;
+    border: solid 2px white;
+    box-shadow: 2px 1px 3px 3px #4b4b4b;
+}
+/* Button */
+header .dropdown-menu button, #dropdownMenuLink
+{
+    background-color: #adccce;
+    border: #adccce solid 1px;
+}
+/* Button Hover*/
+header .dropdown-menu button:hover, #dropdownMenuLink:hover
+{
+    background-color: #48628a;
+    border: #48628a solid 1px;
+}
