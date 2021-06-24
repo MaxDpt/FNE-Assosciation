@@ -1,17 +1,19 @@
 
-/* Body of sheet */
+/* Body of page */
 body
 {
-    background-color: #adccce;
+    background-color: #c3fbff;
 }
 
-/* Header fixe */
+/* Fixed header */
 header .row
 {
     position: fixed;
     width: 100%;
+    margin-top: -5rem;
     background-color: #ffffff;
     border-radius:  0px 0px  8px 8px;
+    box-shadow: 0px 1px 4px 2px #4b4b4b;
     color: white;
     text-align: center;
     padding-top: 10px;
@@ -34,13 +36,13 @@ header img
 /* Link */
 header .dropdown-menu a:hover
 {
-    background-color: #adccce;
+    background-color: #c3fbff;
     color: white;
 }
-/* Sheet */
+/* Box */
 header .dropdown-menu
 {
-    background: linear-gradient(to right, #adccce, white);
+    background: linear-gradient(to right, #c3fbff, white);
     border-radius: 15px;
     border: solid 2px white;
     box-shadow: 2px 1px 3px 3px #4b4b4b;
@@ -48,12 +50,47 @@ header .dropdown-menu
 /* Button */
 header .dropdown-menu button, #dropdownMenuLink
 {
-    background-color: #adccce;
-    border: #adccce solid 1px;
+    background-color: #48628a;
+    border: #48628a solid 1px;
 }
 /* Button Hover*/
 header .dropdown-menu button:hover, #dropdownMenuLink:hover
 {
+    background-color: #354763;
+    border: #354763 solid 1px;
+}
+
+/* MENU NAVIGATION */
+nav 
+{
+    width: 15%;
+    margin-top: 5rem;
+    background-color: white;
+    border-radius: 0px 8px 8px 0px;
+    border: solid white 2px;
+    box-shadow: 0px 2px 4px 2px #4b4b4b;
+    display: flex;
+    flex-direction: column;
+
+}
+nav .Menu
+{
+    height: 40em;
+    border-radius: 0px 8px 8px 0px;
+    
+}
+nav .Menu h2
+{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+nav .Menu a
+{
+    text-align: center;
+}
+nav .Menu a:hover
+{
     background-color: #48628a;
-    border: #48628a solid 1px;
+    color: white;
 }
