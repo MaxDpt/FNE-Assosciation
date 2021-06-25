@@ -81,7 +81,7 @@ nav {
 }
 nav .toggle-button {
     position: fixed;
-    width: 44px;
+    width: 3.5%;
     height: 40px;
     padding: 4px;
     transition: .25s;

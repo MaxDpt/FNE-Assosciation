@@ -34,3 +34,17 @@ section .breadcrumb
     color: black;
 }
 
+/* Carousel */
+#carousel {
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+#carousel img
+{
+    border-radius: 40px;
+}
+
+

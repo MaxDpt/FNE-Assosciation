@@ -1,4 +1,6 @@
 
+  //navigation menu action
+
   $(document).ready(function() {
     var $toggleButton = $('.toggle-button');
         $menuWrap = $('.menu-wrap');
@@ -8,3 +10,4 @@
         $menuWrap.toggleClass('menu-show');
     });
 });
+
