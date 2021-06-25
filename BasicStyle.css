@@ -13,7 +13,9 @@
 /* Body of page */
 body
 {
-    background-color: rgb(124, 224, 255);
+    background: url("Images/backgrouwn.png");
+    background-repeat:repeat-y;
+    background-size:contain;
 }
 
 /* Fixed header */
