@@ -1,4 +1,15 @@
 
+@font-face
+{
+    font-family: Titre;
+    src: url('Polices/Ubuntu-R.ttf');
+}
+@font-face {
+    font-family: Text;
+    src: url('Polices/Ubuntu-L.ttf');
+}
+
+
 /* Body of page */
 body
 {
@@ -19,6 +30,21 @@ header .row
     padding-top: 10px;
     padding-bottom: 10px;
     z-index: 4;
+}
+header #colmidle
+{
+    background-color: #48628a ;
+    margin-top: -1rem;
+    margin-bottom: -0.67rem;
+}
+
+header h2
+{
+    color: white;
+    font-family: Titre;
+    margin: auto;
+    padding-top: 1rem;
+    
 }
 
 /* Logo */
@@ -129,6 +155,7 @@ nav .toggle-button {
 
   /* Menu container */
   nav .menu-wrap {
+    font-family: Text;
     background-color: white;
     position: fixed;
     top: 80px;
@@ -153,4 +180,10 @@ nav .menu-wrap a:hover
 nav .menu-show {
     margin-left: -1px;
     box-shadow: 0px 0px 8px 1px #4b4b4b;
+}
+
+nav h2
+{
+    font-family: Titre;
+
 }
