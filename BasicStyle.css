@@ -13,7 +13,7 @@
 /* Body of page */
 body
 {
-    background-color: #c3fbff;
+    background-color: rgb(124, 224, 255);
 }
 
 /* Fixed header */
@@ -171,15 +171,38 @@ nav .toggle-button {
     transition: .25s;
     z-index: 10;
 }
-nav .menu-wrap a:hover
+
+nav .menu-wrap img
+{
+    margin-top: 20px;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 6px 2px #48628a;
+    border-radius: 10px;
+}
+
+#titrereseaux
+{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+nav .list-group-flush a:hover
 {
     background-color: #48628a;
     color: white;
 }
+
+nav #logoReseaux img:hover
+{
+    width: 45px;
+    box-shadow: 1px 1px 4px 1px #48628a;
+    border-radius: 10px;
+}
+
 /* Menu Open */
 nav .menu-show {
     margin-left: -1px;
-    box-shadow: 0px 0px 8px 1px #4b4b4b;
+    box-shadow: 2px 01px 6px 1px #4b4b4b;
 }
 
 nav h2
