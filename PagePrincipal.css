@@ -94,5 +94,77 @@ section .breadcrumb
     margin-top: 2rem;
     font-size: 1.2rem;
     color: black;
+    font-family: Text;
+ }
+
+ .article2 h1 h2 
+ {
     font-family: Titre;
+ }
+
+ .article2 p
+ {
+     font-size: 1.2rem;
+    color: black;
+    font-family: Text;
+ }
+
+ #secondTitreSection
+ {
+     text-align: center;
+     background-color: #48628a;
+     margin-left: -1.3rem;
+     margin-right: -1.3rem;
+ }
+ #secondTitreSection h2
+ {
+     padding: 5px;
+     color: white;
+ }
+ section .articleImg
+
+ {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px;
+ }
+ section .articleImg p 
+ {
+     width: 100%;
+     margin-top: 1px;
+     float: left;
+     text-align: center;
+ }
+ .article2 img
+ {
+     width: 70%;
+     border-radius: 30%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+ }
+
+ section .imagearticle2
+ {
+     margin-top: 30px;
+ }
+ .articleBtn
+ {
+    display: flex;
+    justify-content: center;
+ }
+ .articleBtn button
+ {
+     background-color: #48628a;
+     border-radius: 30px;
+     border: #48628a 2px solid;
+     font-size: 1.5rem;
+     margin-top: 15px;
+     
+ }
+ .articleBtn button:hover
+ {
+     background-color: #354763;
+     border: solid 2px #354763;
  }
