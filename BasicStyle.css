@@ -181,12 +181,14 @@ nav .menu-wrap img
     margin: 10px;
     box-shadow: 2px 2px 6px 2px #48628a;
     border-radius: 10px;
+    z-index: 9;
 }
 
 #titrereseaux
 {
     margin-top: 20px;
     font-size: 1rem;
+    z-index: 8;
 }
 nav .list-group-flush a:hover
 {
@@ -212,3 +214,55 @@ nav h2
     font-family: Titre;
 
 }
+
+/* FOOTER */
+
+footer img
+{
+    width: 50px;
+    border-radius: 10px;
+    border: solid white 2px;
+    z-index: 1;
+}
+
+footer #footercontain
+{
+    background-color: white;
+    height: 12rem;
+}
+
+footer .list-group-flush a:hover
+{
+    color: black;
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+footer .list-group-flush
+{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-family: Text;
+    text-decoration: none;
+    z-index: 1;
+}
+
+footer #coladresse
+{
+    margin-top: 1rem;
+    font-family: Text;
+    text-align: center;
+}
+
+footer #footercolor
+{
+    background-color: #48628a;
+    display: flex;
+    margin-top: 3rem;
+    height: 3rem;
+    border-radius: 30px 30px 0px 0px;
+    box-shadow: 0px 1px 14px 1px;
+
+}
+
+
