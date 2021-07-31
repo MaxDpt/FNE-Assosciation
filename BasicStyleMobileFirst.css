@@ -25,7 +25,6 @@ header .row
     width: 100%;
     margin-top: -5rem;
     background-color: #ffffff;
-    border-radius:  0px 0px  30px 30px;
     box-shadow: 0px 1px 15px 2px #4b4b4b;
     color: white;
     text-align: center;
@@ -38,6 +37,9 @@ header #colmidle
     background-color: #48628a ;
     margin-top: -1rem;
     margin-bottom: -0.67rem;
+    margin-left: -15rem;
+    padding-left: 7rem;
+    width: 100%;
 }
 
 header h2
@@ -45,13 +47,15 @@ header h2
     color: white;
     font-family: Titre;
     margin: auto;
-    padding-top: 1rem;
+    padding-top: 0.4rem;
+    font-size: 1.5rem;
     
 }
 
 /* Logo */
 header img
 {
+    display: none;
     width: 50px;
     margin-left: -2.5em;
     margin-top: -0.4em;
@@ -68,6 +72,7 @@ header .dropdown-menu a:hover
     color: white;
     border-radius: 40px;
 }
+
 /* Box */
 header .dropdown-menu
 {
@@ -75,9 +80,11 @@ header .dropdown-menu
     border-radius: 40px;
     border: solid 2px white;
     box-shadow: 0px 1px 14px 1px #4b4b4b;
-    padding-bottom: 30px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 6rem;
+    z-index: 10;
 
 }
 /* Button */
@@ -99,20 +106,26 @@ header .dropdown-menu button:hover, #dropdownMenuLink:hover
 /* Button menu */
 nav {
     position: fixed;
-    height: 22rem;
-    width: 4.5rem;
+    height: 3.5rem;
+    width: 100%;
+    margin-top: -0.7rem;
     padding-top: 20px;
-    margin-top: 30px;
     border: solid 2px white;
-    border-radius: 0px 30px 30px 0px;
     background-color: white;
     box-shadow: 0px 0px 7px 1px #4b4b4b;
+    z-index: 5;
 }
 
+nav .menu-unwrap
+{
+    display: flex;
+    flex-direction: row;
+}
 
 nav .toggle-button {
+    display: none;
     position: fixed;
-    width: 3rem;
+    width: 40px;
     height: 40px;
     padding: 4px;
     margin-left: 5px;
@@ -121,7 +134,7 @@ nav .toggle-button {
   }
   nav .toggle-button:hover {
     cursor: pointer;
-    width: 3.7%;
+    width: 50px;
   }
   nav .toggle-button .menu-bar {
     position: absolute;
@@ -160,11 +173,12 @@ nav .toggle-button {
     transition: .5s;
   }
 
+
   /* Button Home */
   nav #button-home
   {
-      margin-top: 3rem;
-      margin-left: 10px;
+      margin-top: -1rem ;
+      margin-left: 3rem;
   }
   nav #button-home:hover
   {
@@ -175,8 +189,8 @@ nav .toggle-button {
   /* Button Project*/
   nav #button-project
   {
-      margin-left: 10px;
-      margin-top: 2rem;
+      margin-left: 2.5rem;
+      margin-top: -1rem;
   }
   nav #button-project:hover
   {
@@ -187,8 +201,8 @@ nav .toggle-button {
     /* Button Facebook*/
     nav #button-facebook
     {
-        margin-left: 10px;
-        margin-top: 2rem;
+        margin-left: 2.5rem;
+        margin-top: -1rem;
     }
     nav #button-facebook:hover
     {
@@ -199,8 +213,8 @@ nav .toggle-button {
      /* Button twitter*/
      nav #button-twitter
      {
-         margin-left: 10px;
-         margin-top: 2rem;
+         margin-left: 2.5rem;
+         margin-top: -1rem;
      }
      nav #button-twitter:hover
      {
@@ -210,6 +224,7 @@ nav .toggle-button {
 
 /* Menu container */
   nav .menu-wrap {
+    display: none;
     font-family: Text;
     background-color: white;
     position: fixed;
@@ -229,6 +244,7 @@ nav .toggle-button {
 
 nav .menu-wrap img
 {
+    display: none;
     margin-top: 20px;
     width: 45px;
     margin: 10px;
@@ -239,24 +255,28 @@ nav .menu-wrap img
 
 #titrereseaux
 {
+    display: none;
     margin-top: 20px;
     font-size: 1rem;
     z-index: 8;
 }
 nav .list-group-flush a:hover
 {
+    display: none;
     background-color: #48628a;
     color: white;
 }
 
 nav #logoReseaux img:hover
 {
+    display: none;
     box-shadow: 1px 1px 4px 1px #48628a;
     border-radius: 10px;
 }
 
 /* Menu Open */
 nav .menu-show {
+    display: none;
     margin-left: -1px;
     box-shadow: 1px 1px 6px 0px #4b4b4b;
 }
@@ -273,9 +293,8 @@ section
     background-color:rgba(255, 255, 255, 0.6);
     border: white 2px solid;
     border-radius: 30px;
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-left: 7%;
     margin-top: 80px;
     box-shadow: 0px 1px 14px 1px;
 }
@@ -286,7 +305,7 @@ section .breadcrumb
 {
     background-color: #48628a;
     border-radius: 40px;
-    margin-top: 5px;
+    margin-top: 5rem;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -312,7 +331,7 @@ section .breadcrumb
 footer #footercontain
 {
     background-color: white;
-    height: 12rem;
+    height: auto;
 }
 
 footer .list-group-flush a:hover

@@ -1,0 +1,159 @@
+@font-face
+{
+    font-family: Titre;
+    src: url('Polices/Ubuntu-R.ttf');
+}
+@font-face {
+    font-family: Text;
+    src: url('Polices/Ubuntu-L.ttf');
+}
+
+/* Fil d'ariane */
+section .breadcrumb
+{
+    background-color: #48628a;
+    border-radius: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.breadcrumb [aria-current="page"]
+{
+    color: white;
+}
+.breadcrumb a:hover
+{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.breadcrumb a
+{
+    color: black;
+}
+
+/* Carousel */
+#carousel {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 40px;
+    
+}
+
+#carousel img
+{
+    border-radius: 40px;
+}
+
+.article
+{
+    margin: 0.1rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border: solid 6px #48628a;
+    border-radius: 30px;
+    height: auto;
+}
+
+.article h1
+{
+    background-color: #48628a ;
+    margin: -1.1rem;
+    margin-top: -2.3rem;
+    height: 6rem;
+    border: solid 2px #48628a;
+    border-radius: 30px 30px 0px 0px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: white;
+    font-family: Titre;
+}
+ .article h2
+ {
+    font-family: Titre;
+    margin-top: 3rem;
+ }
+
+ .article p
+ {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: black;
+    font-family: Text;
+ }
+
+ .article2 h1 h2 
+ {
+    font-family: Titre;
+ }
+
+ .article2 p
+ {
+     font-size: 1.2rem;
+    color: black;
+    font-family: Text;
+ }
+
+ #secondTitreSection
+ {
+     text-align: center;
+     background-color: #48628a;
+     margin-left: -1.3rem;
+     margin-right: -1.3rem;
+ }
+ #secondTitreSection h2
+ {
+     padding: 5px;
+     color: white;
+ }
+ section .articleImg
+
+ {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px;
+ }
+ section .articleImg p 
+ {
+     width: 100%;
+     margin-top: 1px;
+     float: left;
+     text-align: center;
+ }
+ .article2 img
+ {
+     width: 100%;
+     border-radius: 30%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+ }
+
+ section .imagearticle2
+ {
+     margin-top: 30px;
+ }
+ .articleBtn
+ {
+    display: flex;
+    justify-content: center;
+ }
+ .articleBtn button
+ {
+     background-color: #48628a;
+     border-radius: 30px;
+     border: #48628a 2px solid;
+     font-size: 1.5rem;
+     margin-top: 15px;
+     
+ }
+ .articleBtn button:hover
+ {
+     background-color: #354763;
+     border: solid 2px #354763;
+ }
