@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Assosciation_Acceuil</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="BasicStyle.css">
-    <link rel="stylesheet" href="PageProjet.css">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="PageProjet.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="BasicStyle.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="PageProjetMobileFirst.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="BasicStyleMobileFirst.css" type="text/css" />
 </head>
 
 <body>
@@ -14,15 +16,15 @@
         <div class="container-fluid">
             <div class="row">
                 <!-- Collumn of LOGO -->
-                <div class="col">
+                <div class="col" id="colstart">
                     <a href="PagePrincipal.html"> <img src="Images/LogoSoleil.jpg" alt=""></a>
                 </div>
                 <!-- Midle of collumn -->
-                <div class="col -5 col-sm-6 col-md-8 col-lg-9" id="colmidle">
+                <div class="col-7 col-sm-7 col-md-8 col-lg-9" id="colmidle">
                     <h2>France Nature Environnement</h2>
                 </div>
                 <!-- Collumn dropdown menu -->
-                <div class="col">
+                <div class="col" id="colend">
                     <!-- Dropdown menu -->
                     <div class="dropdown">
                         <!-- Button -->
@@ -30,7 +32,10 @@
                         href="#" role="button" id="dropdownMenuLink" 
                         data-toggle="dropdown" aria-haspopup="true" 
                         aria-expanded="false">
-                         S'inscrire
+                        <svg xmlns="Icone/person-circle.svg" width="32" height="32" fill="currentColor" class="bi bi-person-circle" id="logoConnect" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                          </svg>
                         </a>
 
                         <!-- Connexion / Remember Me -->
@@ -85,11 +90,13 @@
     <nav>
         <div class="menu-unwrap">
 
-            <span class="toggle-button">
-                <div class="menu-bar menu-bar-top"></div>
-                <div class="menu-bar menu-bar-middle"></div>
-                <div class="menu-bar menu-bar-bottom"></div>
-            </span>
+            <div class="icone-Bar">
+                <span class="toggle-button">
+                    <div class="menu-bar menu-bar-top"></div>
+                    <div class="menu-bar menu-bar-middle"></div>
+                    <div class="menu-bar menu-bar-bottom"></div>
+                </span>
+            </div>
 
             <div class="icone-home">
                 <a href="PagePrincipal.html">
@@ -124,22 +131,6 @@
                     </svg>
                 </a>
             </div>
-
-       </div>
-
-       <div class="menu-wrap">
-        <div class="menu-sidebar">
-            <h2>Menu</h2>
-            <div class="list-group-flush">
-                <a href="PagePrincipal.html" class="list-group-item list-group-item-action">Acceuil</a>
-                <a href="PageProjet.html" class="list-group-item list-group-item-action">Nos projets</a>
-            </div> 
-            <h2 id="titrereseaux">Sur les réseaux</h2> 
-            <div id="logoReseaux">
-                <a href="https://fr-fr.facebook.com/FranceNatureEnvironnement"> <img src="Images/LogoFacebook.png" alt="Facebook"></a>  
-                <a href="https://twitter.com/FNEasso"> <img src="Images/LogoTwitter.png" alt="Twitter"></a>  
-            </div>     
-        </div>
 
        </div>
 

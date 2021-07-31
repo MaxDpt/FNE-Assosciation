@@ -32,14 +32,20 @@ header .row
     padding-bottom: 10px;
     z-index: 4;
 }
+header #colstart
+{
+    display: none;
+}
 header #colmidle
 {
     background-color: #48628a ;
     margin-top: -1rem;
     margin-bottom: -0.67rem;
-    margin-left: -15rem;
-    padding-left: 7rem;
     width: 100%;
+}
+header #colend
+{
+
 }
 
 header h2
@@ -49,6 +55,7 @@ header h2
     margin: auto;
     padding-top: 0.4rem;
     font-size: 1.5rem;
+    text-align: center;
     
 }
 
@@ -83,7 +90,7 @@ header .dropdown-menu
     padding-bottom: 15px;
     padding-right: 5px;
     padding-left: 5px;
-    margin-top: 6rem;
+    margin-top: 4.5rem;
     z-index: 10;
 
 }
@@ -119,66 +126,18 @@ nav {
 nav .menu-unwrap
 {
     display: flex;
-    flex-direction: row;
+    margin: auto;
+    margin-left: -1rem;
+    width: 100%;
+    justify-content: space-evenly;
 }
-
-nav .toggle-button {
-    display: none;
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    padding: 4px;
-    margin-left: 5px;
-    transition: .25s;
-    z-index: 15;
-  }
-  nav .toggle-button:hover {
-    cursor: pointer;
-    width: 50px;
-  }
-  nav .toggle-button .menu-bar {
-    position: absolute;
-    border-radius: 2px;
-    width: 80%;
-    transition: .5s;
-  }
-  nav .toggle-button .menu-bar-top {
-    border: 4px solid rgb(100, 100, 100);
-    border-bottom: none;
-    top: 0;
-  }
-  nav .toggle-button .menu-bar-middle {
-    height: 4px;
-    background-color: rgb(100, 100, 100);
-    margin-top: 7px;
-    margin-bottom: 7px;
-    top: 4px;
-  }
-  nav .toggle-button .menu-bar-bottom {
-    border: 4px solid rgb(100, 100, 100);
-    border-top: none;
-    top: 22px;
-  }
-  nav .button-open .menu-bar-top {
-    transform: rotate(45deg) translate(8px, 8px);
-    transition: .5s;
-  }
-  nav .button-open .menu-bar-middle {
-    transform: translate(230px);
-    transition: .1s ease-in;
-    opacity: 0;
-  }
-  nav .button-open .menu-bar-bottom {
-    transform: rotate(-45deg) translate(8px, -7px);
-    transition: .5s;
-  }
-
 
   /* Button Home */
   nav #button-home
   {
-      margin-top: -1rem ;
-      margin-left: 3rem;
+      display: flex;
+      margin: auto;
+      margin-top: -0.7rem;
   }
   nav #button-home:hover
   {
@@ -189,7 +148,7 @@ nav .toggle-button {
   /* Button Project*/
   nav #button-project
   {
-      margin-left: 2.5rem;
+      margin: auto;
       margin-top: -1rem;
   }
   nav #button-project:hover
@@ -201,7 +160,7 @@ nav .toggle-button {
     /* Button Facebook*/
     nav #button-facebook
     {
-        margin-left: 2.5rem;
+        margin: auto;
         margin-top: -1rem;
     }
     nav #button-facebook:hover
@@ -213,7 +172,7 @@ nav .toggle-button {
      /* Button twitter*/
      nav #button-twitter
      {
-         margin-left: 2.5rem;
+         margin: auto;
          margin-top: -1rem;
      }
      nav #button-twitter:hover
@@ -363,7 +322,6 @@ footer #footercolor
     display: flex;
     margin-top: 3rem;
     height: 3rem;
-    border-radius: 30px 30px 0px 0px;
     box-shadow: 0px 1px 14px 1px;
 
 }

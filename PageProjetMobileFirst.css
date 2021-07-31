@@ -8,6 +8,7 @@
     src: url('Polices/Ubuntu-L.ttf');
 }
 
+
 section .imagetech
 {
     display: flex;
@@ -18,11 +19,12 @@ section .imagetech
 section img
 {
     border-radius: 30px;
+    width: 100%;
 }
 
 section .article-tech
 {
-    margin: 1.5rem;
+    margin: 0.1rem;
     margin-top: 3rem;
     padding: 1rem;
     padding-top: 2rem;
@@ -57,10 +59,15 @@ section .para1
 {
     margin-top: 3rem;
 }
+section h2
+{
+    font-size: 1.5rem;
+}
 section h3
 {
     margin-top: 3rem;
     font-family: Titre;
+    font-size: 1.5rem;
 }
 section .para2
 {
