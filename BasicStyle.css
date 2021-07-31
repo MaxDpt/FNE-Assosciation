@@ -99,25 +99,29 @@ header .dropdown-menu button:hover, #dropdownMenuLink:hover
 /* Button menu */
 nav {
     position: fixed;
-    height: 70px;
+    height: 22rem;
     width: 5%;
     padding-top: 20px;
     margin-top: 30px;
     border: solid 2px white;
     border-radius: 0px 30px 30px 0px;
     background-color: white;
-    box-shadow: 0px 0px 8px 1px #4b4b4b;
+    box-shadow: 0px 0px 7px 1px #4b4b4b;
 }
+
+
 nav .toggle-button {
     position: fixed;
     width: 3.5%;
     height: 40px;
     padding: 4px;
+    margin-left: 5px;
     transition: .25s;
     z-index: 15;
   }
   nav .toggle-button:hover {
     cursor: pointer;
+    width: 4.2%;
   }
   nav .toggle-button .menu-bar {
     position: absolute;
@@ -126,19 +130,19 @@ nav .toggle-button {
     transition: .5s;
   }
   nav .toggle-button .menu-bar-top {
-    border: 4px solid #555;
+    border: 4px solid rgb(100, 100, 100);
     border-bottom: none;
     top: 0;
   }
   nav .toggle-button .menu-bar-middle {
     height: 4px;
-    background-color: #555;
+    background-color: rgb(100, 100, 100);
     margin-top: 7px;
     margin-bottom: 7px;
     top: 4px;
   }
   nav .toggle-button .menu-bar-bottom {
-    border: 4px solid #555;
+    border: 4px solid rgb(100, 100, 100);
     border-top: none;
     top: 22px;
   }
@@ -156,13 +160,61 @@ nav .toggle-button {
     transition: .5s;
   }
 
+  /* Button Home */
+  nav #button-home
+  {
+      margin-top: 3rem;
+      margin-left: 10px;
+  }
+  nav #button-home:hover
+  {
+      width: 43px;
+      height: 43px;
+  }
+
+  /* Button Project*/
+  nav #button-project
+  {
+      margin-left: 10px;
+      margin-top: 2rem;
+  }
+  nav #button-project:hover
+  {
+      width: 43px;
+      height: 43px;
+  }
+
+    /* Button Facebook*/
+    nav #button-facebook
+    {
+        margin-left: 10px;
+        margin-top: 2rem;
+    }
+    nav #button-facebook:hover
+    {
+        width: 45px;
+        height: 45px;
+    }
+
+     /* Button twitter*/
+     nav #button-twitter
+     {
+         margin-left: 10px;
+         margin-top: 2rem;
+     }
+     nav #button-twitter:hover
+     {
+         width: 45px;
+         height: 45px;
+     }
+
 /* Menu container */
   nav .menu-wrap {
     font-family: Text;
     background-color: white;
     position: fixed;
     top: 110px;
-    height: 400px;
+    height: 22rem;
     width: 15%;
     padding-top: 60px;
     margin-left: -280px;
@@ -178,7 +230,7 @@ nav .toggle-button {
 nav .menu-wrap img
 {
     margin-top: 20px;
-    width: 50px;
+    width: 45px;
     margin: 10px;
     box-shadow: 2px 2px 6px 2px #48628a;
     border-radius: 10px;
@@ -199,7 +251,6 @@ nav .list-group-flush a:hover
 
 nav #logoReseaux img:hover
 {
-    width: 45px;
     box-shadow: 1px 1px 4px 1px #48628a;
     border-radius: 10px;
 }
@@ -207,7 +258,7 @@ nav #logoReseaux img:hover
 /* Menu Open */
 nav .menu-show {
     margin-left: -1px;
-    box-shadow: 2px 01px 6px 1px #4b4b4b;
+    box-shadow: 1px 1px 6px 0px #4b4b4b;
 }
 
 nav h2
@@ -284,6 +335,7 @@ footer #coladresse
     margin-top: 1rem;
     font-family: Text;
     text-align: center;
+    z-index: 0;
 }
 
 footer #footercolor
