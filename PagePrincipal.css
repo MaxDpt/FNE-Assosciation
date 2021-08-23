@@ -8,6 +8,7 @@
     src: url('Polices/Ubuntu-L.ttf');
 }
 
+
 /* Fil d'ariane */
 section .breadcrumb
 {
@@ -17,21 +18,12 @@ section .breadcrumb
     margin-left: 5px;
     margin-right: 5px;
 }
+section .breadcrumb p
+{
+    color: rgb(130, 130, 255);
+    margin: 0.3rem;
+}
 
-.breadcrumb [aria-current="page"]
-{
-    color: white;
-}
-.breadcrumb a:hover
-{
-    color: white;
-    list-style: none;
-    text-decoration: none;
-}
-.breadcrumb a
-{
-    color: black;
-}
 
 /* Carousel */
 #carousel {

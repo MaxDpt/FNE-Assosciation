@@ -157,3 +157,19 @@ section .breadcrumb
      background-color: #354763;
      border: solid 2px #354763;
  }
+
+ /* Fils d'ariane */
+section .breadcrumb p
+{
+    color: rgb(130, 130, 255);
+    margin: 0.1rem;
+}
+section .breadcrumb a
+{
+    margin: 0.1rem;
+    color: white;
+}
+section .breadcrumb a:hover
+{
+    color: rgb(130, 130, 255);
+}
